@@ -4,7 +4,7 @@
 
 
 
-<% if @stock %>
+<% if @stock.name != nil  %>
   <div class="results-block card card-header ">
     <strong>Symbol: </strong><%= @stock.ticker %>
     <strong>Name: </strong><%= @stock.name %>
